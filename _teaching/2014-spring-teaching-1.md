@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 1"
+title: "IMSE 881, Integer Programming (Fall 2015)"
 collection: teaching
-type: "Undergraduate course"
+type: "Course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Kansas State University, IMSE Department"
+date: 2015-08-24
+location: "Manhattan, KS, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Working as a graduate teaching assistant, Grade Homework and Hold help sessions
