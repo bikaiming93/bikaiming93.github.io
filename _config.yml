@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kaiming Bi / Homepage"
+title                    : "About Kaiming"
 title_separator          : "-"
 name                     : &name "Kaiming Bi"
 description              : &description "PhD Candidate in IMSE"
