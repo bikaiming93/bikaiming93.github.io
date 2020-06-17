@@ -22,9 +22,14 @@ Work experience
   * Supervisor: Deidre Thompson
   
 * Aug 2015 - Jun 2020: IT administrator, Graduate Teaching Assistant, Instructor
-  * IMSE Department of Kansas State University
+  * IMSE Department at Carl R. Ice College of Engineering
   * Kansas State University, Manhattan, KS
   * Supervisor: Dr.Bradley Kramer and Dr. Chih-hang (John) Wu
+  
+* Aug 2020 - Present: Postdoctoral Researcher
+  * Division of Infectious Diseases and Global Public Health at School of Medicine
+  * University of California San Diego, San Diego, CA
+  * Supervisor: Dr.Annick Bórquez
   
   
 Skills
