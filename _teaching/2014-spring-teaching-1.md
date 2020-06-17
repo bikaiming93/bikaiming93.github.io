@@ -1,7 +1,7 @@
 ---
 title: "IMSE 881, Integer Programming (Fall 2015)"
 collection: teaching
-type: "Course"
+type: "Graduate Course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Kansas State University, IMSE Department"
 date: 2015-08-24
