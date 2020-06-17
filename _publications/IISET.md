@@ -2,7 +2,7 @@
 title: "Risk perception and human behaviors in epidemics"
 collection: publications
 permalink: /publications/IISET
-venue: "BioMed research international"
+venue: "IISE Transactions on Healthcare Systems Engineering"
 date: 2018-05-30
 citation: 'Zhao, Songnian, Yan Kuang, Chih-Hang Wu, Kaiming Bi, and David Ben-Arieh. "Risk perception and human behaviors in epidemics." IISE Transactions on Healthcare Systems Engineering 8, no. 4 (2018): 315-328.'
 ---
