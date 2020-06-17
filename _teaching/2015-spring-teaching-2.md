@@ -1,7 +1,7 @@
 ---
 title: "IMSE 685, Information System (Spring 2016)"
 collection: teaching
-type: "Course"
+type: "Undergraduate Course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Kansas State University, IMSE Department"
 date: 2016-01-28
