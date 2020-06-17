@@ -67,6 +67,12 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Awards and Honors
 ======
-* Currently signed in to 43 different slack teams
+* Outstanding Dissertation Award of Carl R. Ice College of Engineering, 2020
+* IISE Annual Conference Best Paper in Modeling & Simulation Track, 2018
+* Golden Key Outstanding Graduate Research Assistant nominee, 2018
+* Robert I-Jen and Sophia Shui-Kan Jung Graduate Scholarship, 2015
+* K-State 2025 College of Engineering Scholarship, 2015
+* Second Prize of China Mathematical Contest in Modeling, 2013
+* First Prize of Liaoning Province Mathematical Contest in Modeling, 2013
