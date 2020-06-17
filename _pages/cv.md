@@ -40,9 +40,10 @@ Skills
 * Numerical Simulation
 * Infectious Disease
 * Computer Skills
-  * Programming: 
-  * Sub-skill 2.2
-  * Sub-skill 2.3
+  * Programming: Python, Matlab, C\C++\C#, PHP
+  * Optimization and Machine Learning: CPLEX ILOG, LINDO, GNU Octave, Weka
+  * Simulation: SIMIO, Netlogo, Areana
+  * Statistics: Minitab, R, SAS, SPSS
 
 Publications
 ======
