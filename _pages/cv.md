@@ -16,25 +16,16 @@ Education
 
 Work experience
 ======
-* June 2019 - Present: Data Analyst Intern
+* June 2019 - August 2019: Data Analyst Intern
   * Customer Experience group at FedEx Service 
-  * Duties included: Clean data and build machine learning model for customer channel prediction
+  * FedEx Headquarter, Memphis, TN
   * Supervisor: Deidre Thompson
-
-* Aug 2018 - May 2019: Lab Instructor of IMSE 643 Simulation
-  * IMSE Department of Kansas State University
-  * Duties included: Teach one hour lab session per week, grade homework and hold helping sessions
-  * Supervisor: Dr. Chih-hang (John) Wu
   
-* Jul 2016 - Present: IT administrator
+* Aug 2015 - Jun 2020: IT administrator, Graduate Teaching Assistant, Instructor
   * IMSE Department of Kansas State University
-  * Duties included: Independently provide IT support in both hardware and software for research & teaching
+  * Kansas State University, Manhattan, KS
   * Supervisor: Dr.Bradley Kramer and Dr. Chih-hang (John) Wu
   
-* Aug 2015 - May 2016: Teaching Assistant of IMSE 685 and IMSE 881
-  * IMSE Department of Kansas State University
-  * Duties included: Grading homework and hold help session for Information System and Linear Programming Class
-  * Supervisor: Dr. Chih-hang (John) Wu
   
 Skills
 ======
