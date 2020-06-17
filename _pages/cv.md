@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+[Click to View My Up-to-date Curriculum Vitae [PDF]](http://bikaiming93.github.io/files/CV_Kaiming Bi 2020.pdf)
+
+<!-- <embed src="http://bikaiming93.github.io/files/CV_Kaiming Bi 2020.pdf" width="650" height="1800" type='application/pdf'> -->
+
 Education
 ======
 * B.S. in Mathematics, Northeastern University (Shenyang), 2015
