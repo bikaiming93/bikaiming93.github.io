@@ -1,3 +1,4 @@
+---
 title: "Zoonotic visceral leishmaniasis transmission: modeling, backward bifurcation, and optimal control"
 collection: publications
 permalink: /publications/JMB
