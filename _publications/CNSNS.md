@@ -1,3 +1,4 @@
+---
 title: "A Memetic Algorithm for Solving Optimal Control Problems of Zika Virus Epidemic with Equilibriums and Backward Bifurcation Analysis"
 collection: publications
 permalink: /publications/CNSNS
