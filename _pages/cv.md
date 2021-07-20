@@ -20,20 +20,26 @@ Education
 
 Work experience
 ======
+* Aug 2021 - Present: Postdoctoral Researcher
+  * Department of Integrative Biology
+  * University of Texas, Austin, TX
+  * Supervisor: Dr.Lauren Meyers
+  
+* Aug 2020 - Aug 2021: Postdoctoral Researcher
+  * Division of Infectious Diseases and Global Public Health at School of Medicine
+  * University of California San Diego, San Diego, CA
+  * Supervisor: Dr.Annick Bórquez
+
+* Aug 2015 - Jun 2020: IT administrator, Graduate Teaching Assistant, Instructor
+  * IMSE Department at Carl R. Ice College of Engineering
+  * Kansas State University, Manhattan, KS
+  * Supervisor: Dr.Bradley Kramer and Dr. Chih-hang (John) Wu
+
 * June 2019 - August 2019: Data Analyst Intern
   * Customer Experience group at FedEx Service 
   * FedEx Headquarter, Memphis, TN
   * Supervisor: Deidre Thompson
   
-* Aug 2015 - Jun 2020: IT administrator, Graduate Teaching Assistant, Instructor
-  * IMSE Department at Carl R. Ice College of Engineering
-  * Kansas State University, Manhattan, KS
-  * Supervisor: Dr.Bradley Kramer and Dr. Chih-hang (John) Wu
-  
-* Aug 2020 - Present: Postdoctoral Researcher
-  * Division of Infectious Diseases and Global Public Health at School of Medicine
-  * University of California San Diego, San Diego, CA
-  * Supervisor: Dr.Annick Bórquez
   
   
 Skills
@@ -43,6 +49,7 @@ Skills
 * Machine Learning
 * Numerical Simulation
 * Infectious Disease
+* Drug Epidemic
 * Computer Skills
   * Programming: Python, Matlab, C\C++\C#, PHP
   * Optimization and Machine Learning: CPLEX ILOG, LINDO, GNU Octave, Weka
