@@ -76,7 +76,7 @@ Teaching
   
 Awards and Honors
 ======
-* 	Pencis Best Researcher Award: International Research Awards on Infectious Diseases, 2021
+* Pencis Best Researcher Award: International Research Awards on Infectious Diseases, 2021
 * Outstanding Dissertation Award of Carl R. Ice College of Engineering, 2020
 * IISE Annual Conference Best Paper in Modeling & Simulation Track, 2018
 * Golden Key Outstanding Graduate Research Assistant nominee, 2018
