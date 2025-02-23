@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Big-data and Infectious disease modeling Lab"
 title_separator          : "-"
-name                     : &name "Dr.Kaiming Bi"
+name                     : &name "Dr. Kaiming Bi"
 description              : &description "Assistant Professor at UT Health Houston"
 url                      : https://bikaiming93.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dr.Kaiming Bi"
+  name             : "Dr. Kaiming Bi (毕楷明)"
   avatar           : "bkm.jpg"
   bio              : "Assistant Professor at UT Health Houston"
   location         : "TX, USA"
