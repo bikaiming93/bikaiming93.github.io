@@ -13,4 +13,4 @@ The BI Lab is dedicated to researching epidemics and interventions to improve pu
 
 We are eager to collaborate with researchers across a wide range of topics, spanning both methodology and health applications. The lab is currently seeking self-motivated PhD students with a strong STEM background and a passion for solving real-world public health challenges. Please contact us at: Kaiming.Bi@uth.tmc.edu.
 
-![alt text](https://github.com/bikaiming93/bikaiming93.github.io/tree/master/images/research_frame.png)
+![alt text](https://raw.githubusercontent.com/bikaiming93/bikaiming93.github.io/master/images/research_frame.png?raw=true)
