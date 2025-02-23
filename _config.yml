@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kaiming Bi, PhD"
+title                    : "**B**ig-data and **I**nfectious disease modeling Lab"
 title_separator          : "-"
-name                     : &name "Kaiming Bi"
-description              : &description "Postdoc in UT Austin"
+name                     : &name "Dr.Kaiming Bi"
+description              : &description "Assistant Professor at UT Health Houston"
 url                      : https://bikaiming93.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bikaiming93/bikaiming93.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Kaiming Bi"
   avatar           : "bkm.jpg"
-  bio              : "Postdoctoral Researcher at University of Texas at Austin"
+  bio              : "Assistant Professor at UT Health Houston"
   location         : "TX, USA"
   employer         :
   pubmed           : #  "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com.au/citations?user=56ebSPAAAAAJ&hl=en"
-  email            : "bikaiming@ksu.edu"
+  email            : "Kaiming.Bi@uth.tmc.edu"
   researchgate     : "https://www.researchgate.net/profile/Kaiming_Bi2"
   uri              :
   bitbucket        :
