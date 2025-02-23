@@ -1,12 +1,13 @@
 ---
 permalink: /
-title: "About Me"
-excerpt: "About me"
+title: "The BI lab"
+excerpt: "The BI lab"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+Welcome to the Big-data and Infectious disease modeling lab (the BI lab), situated within the School of Public Health at the University of Texas Health Science Center at Houston.
 
 * I am a postdoctoral researcher and a theoretical epidemiologist in the [Department of Integrative Biology](https://integrativebio.utexas.edu/) at [ University of Texas at Austin](https://www.utexas.edu/), advised by Prof. [Lauren Meyers](http://www.bio.utexas.edu/research/meyers/index.html).
 * I have backgrounds in math, enggineering and public health. I received my Bachelor’s Degree in Applied Mathematics from [Northeastern University (China)](http://english.neu.edu.cn/)， advised by Prof. [Qingling Zhang](http://faculty.neu.edu.cn/qlzhang/). I earned my PhD Degree in Industrial Enggineering from [Kansas State University](https://www.k-state.edu/), advised by Prof. [Chih-hang (John) Wu](https://www.imse.ksu.edu/people/faculty/wu/) and Prof. [David Ben-Arieh](https://www.imse.ksu.edu/people/faculty/arieh/).I was a postdoctoral researcher and a theoretical epidemiologist in the [Division of Infectious Diseases & Global Public Health](https://medschool.ucsd.edu/som/medicine/divisions/idgph/Pages/default.aspx) at [ University of California San Diego](https://ucsd.edu/), advised by Prof. [Annick Borquez](https://profiles.ucsd.edu/annick.borquez#narrative). My research background includes mathematical modeling, numerical simulation, machine learning and optimization.
