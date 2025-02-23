@@ -9,9 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-[Click to View My Up-to-date Curriculum Vitae [PDF]](http://bikaiming93.github.io/files/CV_Kaiming.pdf)
+[Click to View My Up-to-date Curriculum Vitae [PDF]](http://bikaiming93.github.io/files/CV_Kaiming_Bi_2025.pdf)
 
-<!-- <embed src="http://bikaiming93.github.io/files/CV_Kaiming.pdf" width="650" height="1800" type='application/pdf'> -->
+<!-- <embed src="http://bikaiming93.github.io/files/CV_Kaiming_Bi_2025.pdf" width="650" height="1800" type='application/pdf'> -->
 
 Education
 ======
