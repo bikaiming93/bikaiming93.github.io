@@ -1,7 +1,7 @@
 ---
-title: "Texas All-Payor Claims Database (TX-APCD)"
+title: "Texas Epidemic Public Health Institute (TEPHI)"
 location: "UT Health"
-excerpt: "The [TX-APCD](https://sph.uth.edu/research/centers/center-for-health-care-data/texas-all-payor-claims-database/) includes medical, pharmacy, and dental claims, as well as eligibility and provider files, collected from private and public payors. It will contain administrative claims information on approximately 60% of all covered Texans, representing nearly 100% of medical claims regulated by the state.<br/><img src='https://raw.githubusercontent.com/bikaiming93/bikaiming93.github.io/master/images/Re1.png?raw=true' alt='Digital Twin Project Image'>"
+excerpt: "[TEPHI](https://tephi.texas.gov/) is a network of public health professionals and resources that will ensure the state is at the forefront of pandemic readiness and response to keep Texans safe and the economy strong.<br/><img src='https://raw.githubusercontent.com/bikaiming93/bikaiming93.github.io/master/images/Re2.png?raw=true' alt='Digital Twin Project Image'>"
 collection: talks
 ---
 
