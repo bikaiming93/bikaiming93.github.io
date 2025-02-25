@@ -7,4 +7,5 @@ excerpt: "Mathematical modeling has been used extensively to forecast emerging a
 3) pilot a targeted mass-media based intervention to increase access to appropriate prevention methods among a specific population at risk of an emerging drug use in real time as identified by the model. "
 collection: portfolio
 ---
+![alt text](https://raw.githubusercontent.com/bikaiming93/bikaiming93.github.io/master/images/Project2.png?raw=true)
 
