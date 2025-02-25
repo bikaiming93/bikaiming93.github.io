@@ -184,7 +184,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
+  resources:
     output: true
     permalink: /:collection/:path/
 
@@ -236,12 +236,12 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _resources
   - scope:
       path: ""
-      type: talks
+      type: resources
     values:
-      layout: talk
+      layout: resources
       author_profile: true
       share: true
 
