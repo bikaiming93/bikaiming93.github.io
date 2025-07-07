@@ -1,5 +1,17 @@
+# /teams/index.md
 ---
-layout: team_member          # ← the custom layout we built
-title: Meet the Team
-permalink: /Teams/           # ensures it lives at /teams/
+layout: default
+title: Meet the Lab
+permalink: /Teams/
 ---
+
+Welcome to our Lab!
+
+<section class="team-overview">
+  {% assign members = page.members | default: site.data.team %}
+  {% for member in members %}
+    <div class="team-member">
+      <!-- same HTML for photo, name, bio, etc. -->
+    </div>
+  {% endfor %}
+</section>
