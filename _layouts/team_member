@@ -20,7 +20,12 @@ layout: default
 
   <div class="team-list">
     {% comment %} Pull members from front matter or _data/team.yml {% endcomment %}
-    {% assign members = page.members | default: site.data.team %}
+    {% assign raw_data = site.data.team %}
+    {% if raw_data.members %}
+      {% assign members = raw_data.members %}
+    {% else %}
+      {% assign members = page.members | default: raw_data %}
+    {% endif %}
 
     {% if members and members.size > 0 %}
       {% for member in members %}
@@ -101,3 +106,4 @@ layout: default
   color: #999;
 }
 </style>
+
