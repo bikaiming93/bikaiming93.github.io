@@ -1,6 +1,5 @@
-{% raw %}
 ---
-# team_member.html layout
+# layout: team_member.html
 ---
 
 {% comment %} Hero section if needed {% endcomment %}
@@ -19,13 +18,8 @@
   {% include sidebar.html %}
 
   <div class="team-list">
-    {% comment %} Determine members source {% endcomment %}
-    {% assign raw = site.data.team %}
-    {% if raw.members %}
-      {% assign members = raw.members %}
-    {% else %}
-      {% assign members = raw %}
-    {% endif %}
+    {% comment %} Pull team members from data file {% endcomment %}
+    {% assign members = site.data.team %}
 
     {% if members and members.size > 0 %}
       {% for member in members %}
@@ -35,14 +29,8 @@
           </div>
           <div class="team-member__info">
             <h2 class="team-member__name">{{ member.name }}</h2>
-            {% if member.role %}
-              <p class="team-member__role">{{ member.role }}</p>
-            {% endif %}
-            {% if member.bio %}
-              <div class="team-member__bio">
-                {{ member.bio }}
-              </div>
-            {% endif %}
+            {% if member.role %}<p class="team-member__role">{{ member.role }}</p>{% endif %}
+            {% if member.bio %}<div class="team-member__bio">{{ member.bio }}</div>{% endif %}
             {% if member.website %}
               <p class="team-member__website">
                 <a href="{{ member.website }}" target="_blank" rel="noopener">Visit Website</a>
@@ -70,37 +58,16 @@
   align-items: flex-start;
 }
 .team-member__photo img {
-  width: auto;
   max-width: 200px;
   height: auto;
-  display: block;
   margin-right: 2rem;
 }
-.team-member__info {
-  flex: 1;
-}
-.team-member__name {
-  font-size: 1.75rem;
-  margin: 0;
-}
-.team-member__role {
-  font-size: 1.1rem;
-  color: #666;
-  margin: 0.5rem 0;
-}
-.team-member__bio {
-  margin: 1rem 0;
-}
-.team-member__website a {
-  color: #007acc;
-  text-decoration: none;
-}
-.team-member__website a:hover {
-  text-decoration: underline;
-}
-.team-member__empty {
-  font-style: italic;
-  color: #999;
-}
+.team-member__info { flex: 1; }
+.team-member__name { font-size: 1.75rem; margin: 0; }
+.team-member__role { font-size: 1.1rem; color: #666; margin: 0.5rem 0; }
+.team-member__bio { margin: 1rem 0; }
+.team-member__website a { color: #007acc; text-decoration: none; }
+.team-member__website a:hover { text-decoration: underline; }
+.team-member__empty { font-style: italic; color: #999; }
 </style>
-{% endraw %}
+
