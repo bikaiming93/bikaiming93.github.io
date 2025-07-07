@@ -1,9 +1,7 @@
 {% raw %}
 ---
-# This empty front-matter block tells Jekyll to treat this as a layout
+# team_member.html layout
 ---
-
-{% comment %} Layout: team_member.html {% endcomment %}
 
 {% comment %} Hero section if needed {% endcomment %}
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -21,8 +19,13 @@
   {% include sidebar.html %}
 
   <div class="team-list">
-    {% comment %} Pull members from _data/team.yml {% endcomment %}
-    {% assign members = site.data.team %}
+    {% comment %} Determine members source {% endcomment %}
+    {% assign raw = site.data.team %}
+    {% if raw.members %}
+      {% assign members = raw.members %}
+    {% else %}
+      {% assign members = raw %}
+    {% endif %}
 
     {% if members and members.size > 0 %}
       {% for member in members %}
@@ -101,4 +104,3 @@
 }
 </style>
 {% endraw %}
-
