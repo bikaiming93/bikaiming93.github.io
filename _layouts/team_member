@@ -19,31 +19,38 @@ layout: default
   {% include sidebar.html %}
 
   <div class="team-list">
-    {% comment %} Loop through team members defined either in page front matter or in _data/team.yml {% endcomment %}
+    {% comment %} Pull members from front matter or _data/team.yml {% endcomment %}
     {% assign members = page.members | default: site.data.team %}
-    {% for member in members %}
-      <div class="team-member">
-        <div class="team-member__photo">
-          <img src="{{ member.photo }}" alt="Photo of {{ member.name }}">
+
+    {% if members and members.size > 0 %}
+      {% for member in members %}
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="{{ member.photo }}" alt="Photo of {{ member.name }}">
+          </div>
+          <div class="team-member__info">
+            <h2 class="team-member__name">{{ member.name }}</h2>
+            {% if member.role %}
+              <p class="team-member__role">{{ member.role }}</p>
+            {% endif %}
+            {% if member.bio %}
+              <div class="team-member__bio">
+                {{ member.bio }}
+              </div>
+            {% endif %}
+            {% if member.website %}
+              <p class="team-member__website">
+                <a href="{{ member.website }}" target="_blank" rel="noopener">Visit Website</a>
+              </p>
+            {% endif %}
+          </div>
         </div>
-        <div class="team-member__info">
-          <h2 class="team-member__name">{{ member.name }}</h2>
-          {% if member.role %}
-            <p class="team-member__role">{{ member.role }}</p>
-          {% endif %}
-          {% if member.bio %}
-            <div class="team-member__bio">
-              {{ member.bio }}
-            </div>
-          {% endif %}
-          {% if member.website %}
-            <p class="team-member__website">
-              <a href="{{ member.website }}" target="_blank" rel="noopener">Visit Website</a>
-            </p>
-          {% endif %}
-        </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    {% else %}
+      <p class="team-member__empty">No team members found. Ensure you have
+        <code>_data/team.yml</code> defined or specify a <code>members:</code>
+        list in this page’s front matter.</p>
+    {% endif %}
   </div>
 </div>
 {% endraw %}
@@ -88,5 +95,9 @@ layout: default
 }
 .team-member__website a:hover {
   text-decoration: underline;
+}
+.team-member__empty {
+  font-style: italic;
+  color: #999;
 }
 </style>
