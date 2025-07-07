@@ -1,109 +1,30 @@
 {% raw %}
----
-layout: default
----
-
-{% comment %} Hero section if needed {% endcomment %}
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% endif %}
-
-{% comment %} Breadcrumbs for subpages {% endcomment %}
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
+{% comment %} no --- here {% endcomment %}
 
 <div id="main" role="main">
   {% include sidebar.html %}
 
   <div class="team-list">
-    {% comment %} Pull members from front matter or _data/team.yml {% endcomment %}
-    {% assign raw_data = site.data.team %}
-    {% if raw_data.members %}
-      {% assign members = raw_data.members %}
-    {% else %}
-      {% assign members = page.members | default: raw_data %}
-    {% endif %}
-
+    {% assign members = site.data.team %}
     {% if members and members.size > 0 %}
-      {% for member in members %}
+      {% for m in members %}
         <div class="team-member">
           <div class="team-member__photo">
-            <img src="{{ member.photo }}" alt="Photo of {{ member.name }}">
+            <img src="{{ m.photo }}" alt="Photo of {{ m.name }}">
           </div>
           <div class="team-member__info">
-            <h2 class="team-member__name">{{ member.name }}</h2>
-            {% if member.role %}
-              <p class="team-member__role">{{ member.role }}</p>
-            {% endif %}
-            {% if member.bio %}
-              <div class="team-member__bio">
-                {{ member.bio }}
-              </div>
-            {% endif %}
-            {% if member.website %}
-              <p class="team-member__website">
-                <a href="{{ member.website }}" target="_blank" rel="noopener">Visit Website</a>
-              </p>
+            <h2>{{ m.name }}</h2>
+            <p class="role">{{ m.role }}</p>
+            <p class="bio">{{ m.bio }}</p>
+            {% if m.website %}
+              <p><a href="{{ m.website }}" target="_blank">Visit Website</a></p>
             {% endif %}
           </div>
         </div>
       {% endfor %}
     {% else %}
-      <p class="team-member__empty">No team members found. Ensure you have
-        <code>_data/team.yml</code> defined or specify a <code>members:</code>
-        list in this page’s front matter.</p>
+      <p>No team members found in <code>_data/team.yml</code></p>
     {% endif %}
   </div>
 </div>
 {% endraw %}
-
-<style>
-.team-list {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  margin: 2rem 0;
-}
-.team-member {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}
-.team-member__photo img {
-  width: auto;
-  max-width: 200px;
-  height: auto;
-  display: block;
-  margin-right: 2rem;
-}
-.team-member__info {
-  flex: 1;
-}
-.team-member__name {
-  font-size: 1.75rem;
-  margin: 0;
-}
-.team-member__role {
-  font-size: 1.1rem;
-  color: #666;
-  margin: 0.5rem 0;
-}
-.team-member__bio {
-  margin: 1rem 0;
-}
-.team-member__website a {
-  color: #007acc;
-  text-decoration: none;
-}
-.team-member__website a:hover {
-  text-decoration: underline;
-}
-.team-member__empty {
-  font-style: italic;
-  color: #999;
-}
-</style>
-
