@@ -6,8 +6,8 @@
 
 - name: Nahom Worku
   role: PhD student
-  photo: /images/Nahom_Worku.JPG
-  bio: xxxx
+  photo: /images/nahom_portrait.png
+  bio: Nahom Worku is a PhD student in Biostatistics and Data Science at UTHealth Houston, primarily focused on infectious disease modeling. He holds dual Master’s degrees in Health Metrics Sciences and Applied & Computational Mathematics from the University of Washington. Nahom played a central role in Ethiopia’s national COVID-19 response through the Ethiopian Public Health Institute’s National Data Management Center, where he co-led scenario-based forecasting to guide policy decisions. His work integrates engineering, computational methods, and data science to simulate disease dynamics and inform public health strategies. Beyond infectious diseases, his research interests include maternal and child health, health systems analysis, and the application of statistical, numerical, machine learning, AI, and mechanistic modeling to support evidence-based decision-making in global health.
   website: https://scholar.google.com/citations?user=pouof1wAAAAJ&hl=en
 
 - name: Peiqi Guo 
