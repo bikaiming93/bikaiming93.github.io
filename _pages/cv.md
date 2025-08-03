@@ -20,7 +20,11 @@ Education
 
 Work experience
 ======
-* Aug 2021 - Present: Postdoctoral Researcher
+* Dec 2024 - Present: Assistant Professor
+  * Department of Management, Policy, and Community Health 
+  * The University of Texas Health Science Center at Houston, Houston, TX
+
+* Aug 2021 - Nob 2024: Postdoctoral Researcher & Research Associate
   * Department of Integrative Biology
   * University of Texas, Austin, TX
   * Supervisor: Dr.Lauren Meyers
