@@ -33,7 +33,7 @@ Work experience
 * Aug 2015 - Jun 2020: IT administrator, Graduate Teaching Assistant, Instructor
   * IMSE Department at Carl R. Ice College of Engineering
   * Kansas State University, Manhattan, KS
-  * Supervisor: Dr.Bradley Kramer and Dr. Chih-hang (John) Wu
+  * Supervisor: Dr. Chih-hang (John) Wu and Dr.Bradley Kramer
 
 * June 2019 - August 2019: Data Analyst Intern
   * Customer Experience group at FedEx Service 
