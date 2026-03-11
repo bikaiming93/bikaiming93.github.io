@@ -16,7 +16,7 @@ redirect_from:
 Education
 ======
 * B.S. in Mathematics, Northeastern University (Shenyang), 2015
-* Ph.D in Industry Engineering Operations Research, Kansas State University, 2020
+* Ph.D in Industrial Engineering Operations Research, Kansas State University, 2020
 
 Work experience
 ======
@@ -66,7 +66,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Resources
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
