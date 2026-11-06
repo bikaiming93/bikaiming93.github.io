@@ -1,77 +1,56 @@
-# group: member | intern | alumni
-# ---------- Active Members ----------
-- name: Boya Peng
-  group: member
-  role: PhD student
-  photo: /images/Boya_Peng.JPG
-  bio: I am a PhD student in Biostatistics at the University of Texas Health Science Center at Houston. Before attending UT, I graduated from the University of Alberta with a Master’s degree in Biostatistics and worked as a Biostatistician in Shanghai. Passionate about applying advanced statistical modeling to real-world public health challenges, my research focuses on infectious disease dynamics and probabilistic Bayesian modeling.
-  website: https://scholar.google.com/citations?user=xyfDibcAAAAJ&hl=en
- 
-- name: Nahom Worku
-  group: member
-  role: PhD student
-  photo: /images/nahom_portrait.png
-  bio: Nahom Worku is a PhD student in Biostatistics and Data Science at UTHealth Houston, primarily focused on infectious disease modeling. He holds dual Master’s degrees in Health Metrics Sciences and Applied & Computational Mathematics from the University of Washington. Nahom played a central role in Ethiopia’s national COVID-19 response through the Ethiopian Public Health Institute’s National Data Management Center, where he co-led scenario-based forecasting to guide policy decisions. His work integrates engineering, computational methods, and data science to simulate disease dynamics and inform public health strategies. Beyond infectious diseases, his research interests include maternal and child health, health systems analysis, and the application of statistical, numerical, machine learning, AI, and mechanistic modeling to support evidence-based decision-making in global health.
-  website: https://scholar.google.com/citations?user=pouof1wAAAAJ&hl=en
- 
-- name: Ben Cristol
-  group: member
-  role: PhD student
-  photo: /images/Ben.jpg
-  bio: Ben is a PhD candidate (fourth-year) in Epidemiology at UT Health Science Center SPH. Prior to doctoral studies, Ben obtained his MPH at the SPH Austin campus. During this time, he supported behavioral epi projects that assessed substance use behaviors among adolescents. More recently, he gained experience using EMR data for clinical research projects. He looks forward to pursuing new research questions salient to respiratory infections that will be examined with statistical models. Outside of research, Ben enjoys foreign travel and spending time with his dog Sasha.
-  website: https://www.linkedin.com/in/benjamincristol1993/
- 
-- name: Peiqi Guo
-  group: member
-  role: PhD student (Co-supervised with Dr. Aanand Naik)
-  photo: /images/Peiqi_Guo.JPG
-  bio: Peiqi Guo is currently pursuing a PhD in Public Health with a focus on Healthcare Management and Health Policy at UTHealth Houston School of Public Health. His research interests focus on Health Policy and Systems Research and Health Informatics. He also serves as a graduate research assistant in the Patient Priorities Care Lab and Bi-Lab. Peiqi received his Master of Information Systems Management and Master of Engineering Management at WUSTL.
-  website: https://www.guopeiqi.com
- 
-# ---------- Active Lab Interns (no photo) ----------
-- name: Taiwo Babatunde
-  group: intern
-  role: Master Lab Intern
-  bio: Taiwo Babatunde is an MSc candidate in One Health and Disease Modelling at the African Centre of Excellence for Public Health and Toxicology Research (ACE‑PUTOR), University of Port Harcourt. He works on mathematical and geospatial modelling of vector‑borne diseases, with experience from the Nigeria Modelling Fellowship and the Nigerian Institute of Medical Research. His interests include transmission dynamics of infectious diseases and using statistics to inform public‑health decisions.
-  website: https://www.linkedin.com/in/taiwo-babatunde-899838202/
- 
-- name: Niam Jasani
-  group: intern
-  role: Undergraduate Lab Intern
-  bio: Niam is a first-year undergraduate student at the University of Texas at Austin, majoring in Public Health with plans to pursue an MD. His research interests include health policy and virology, and he is interested in gaining experience in the lab. Outside of academics, Niam enjoys playing pickleball, poker, and spending time with friends.
-  website: https://www.linkedin.com/in/niamjasani/
- 
-- name: Muzaffar Ali
-  group: intern
-  role: High School Lab Intern
-  bio: Muzaffar Ali is a student at Klein Cain High School. He conducted research at the University of Houston with Dr. Charles Layne, working on data analysis of neurological diseases. His interests include applying computational and statistical methods to study complex biological systems and public health challenges. In the lab, he is excited to contribute to research on infectious disease dynamics and mobility data.
-  website: https://www.linkedin.com/in/muzaffar-ali-00876a3b6/
- 
-# ---------- Alumni ----------
-- name: Thuy Nguyen
-  group: alumni
-  role: Biostatistician (Co-supervised with Dr. Cici Bauer)
-  photo: /images/Thuy.JPG
-  website: https://www.linkedin.com/in/thuy-nguyen-b3a14a23b/
- 
-- name: Stuti Parikh
-  group: alumni
-  role: MPH student
-  photo: /images/Stuti_Parikh.jpeg
-  bio: I am an MPH student in Epidemiology at the UTHealth Houston School of Public Health. I have earned a Bachelor of Dental Surgery (BDS) and have clinical experience as a dental practitioner. My interests include infectious disease epidemiology, chronic disease prevention, and health disparities. I am interested in applying epidemiologic and statistical methods to real-world public health problems and hope to pursue a career in research and public health.
-  website: https://www.linkedin.com/in/stuti-parikh-a6ba2532b/
- 
-- name: Sophia Li
-  group: alumni
-  role: Undergraduate Lab Intern
-  photo: /images/Sophia_Li.jpg
-  bio: Sophia is a sophomore Informatics and Behavioral Data Science double major at the University of Texas at Austin. She has a strong interest in using quantitative methods to address real-world health challenges. After graduation, she plans to attend graduate school for biostatistics or data science with hopes of pursuing a career at the intersection of data science and public health.
-  website: https://www.linkedin.com/in/sophiaa-a-li/
- 
-- name: Gauri Vanjari
-  group: alumni
-  role: Master Collaborator
-  photo: /images/Gauri_Vanjari.jpeg
-  bio: Gauri Vanjari is a Master of Public Health (MPH) candidate at Cornell University with interests in infectious disease epidemiology, outbreak modeling, and data-driven public health interventions. Her capstone project focuses on modeling measles outbreak dynamics. As part of this work, she is collaborating with Dr. Bi’s lab to learn more about their research on measles transmission and modeling approaches. Gauri’s broader interests include integrating epidemiologic modeling, surveillance data, and behavioral dynamics to improve outbreak prediction and public health response.
-  website: https://storymaps.arcgis.com/stories/fb599a01d2e04450a1977aab67ddce72
- 
+# ============================================================
+# Team data for https://bikaiming93.github.io/teams/
+# Three categories: members, interns, alumni
+# - members: shown with photo, role, bio, and website
+# - interns and alumni: only the name is shown (linked to website)
+# To move someone, cut their entry and paste it under another category.
+# ============================================================
+
+members:
+  - name: Boya Peng
+    role: PhD student
+    photo: /images/Boya_Peng.JPG
+    bio: I am a PhD student in Biostatistics at the University of Texas Health Science Center at Houston. Before attending UT, I graduated from the University of Alberta with a Master’s degree in Biostatistics and worked as a Biostatistician in Shanghai. Passionate about applying advanced statistical modeling to real-world public health challenges, my research focuses on infectious disease dynamics and probabilistic Bayesian modeling.
+    website: https://scholar.google.com/citations?user=xyfDibcAAAAJ&hl=en
+
+  - name: Nahom Worku
+    role: PhD student
+    photo: /images/nahom_portrait.png
+    bio: Nahom Worku is a PhD student in Biostatistics and Data Science at UTHealth Houston, primarily focused on infectious disease modeling. He holds dual Master’s degrees in Health Metrics Sciences and Applied & Computational Mathematics from the University of Washington. Nahom played a central role in Ethiopia’s national COVID-19 response through the Ethiopian Public Health Institute’s National Data Management Center, where he co-led scenario-based forecasting to guide policy decisions. His work integrates engineering, computational methods, and data science to simulate disease dynamics and inform public health strategies. Beyond infectious diseases, his research interests include maternal and child health, health systems analysis, and the application of statistical, numerical, machine learning, AI, and mechanistic modeling to support evidence-based decision-making in global health.
+    website: https://scholar.google.com/citations?user=pouof1wAAAAJ&hl=en
+
+  - name: Ben Cristol
+    role: PhD student
+    photo: /images/Ben.jpg
+    bio: Ben is a PhD candidate (fourth-year) in Epidemiology at UT Health Science Center SPH. Prior to doctoral studies, Ben obtained his MPH at the SPH Austin campus. During this time, he supported behavioral epi projects that assessed substance use behaviors among adolescents. More recently, he gained experience using EMR data for clinical research projects. He looks forward to pursuing new research questions salient to respiratory infections that will be examined with statistical models. Outside of research, Ben enjoys foreign travel and spending time with his dog Sasha.
+    website: https://www.linkedin.com/in/benjamincristol1993/
+
+  - name: Peiqi Guo
+    role: PhD student (Co-supervised with Dr. Aanand Naik)
+    photo: /images/Peiqi_Guo.JPG
+    bio: Peiqi Guo is currently pursuing a PhD in Public Health with a focus on Healthcare Management and Health Policy at UTHealth Houston School of Public Health. His research interests focus on Health Policy and Systems Research and Health Informatics. He also serves as a graduate research assistant in the Patient Priorities Care Lab and Bi-Lab. Peiqi received his Master of Information Systems Management and Master of Engineering Management at WUSTL.
+    website: https://www.guopeiqi.com
+
+interns:
+  - name: Taiwo Babatunde
+    website: https://www.linkedin.com/in/taiwo-babatunde-899838202/
+
+  - name: Niam Jasani
+    website: https://www.linkedin.com/in/niamjasani/
+
+  - name: Muzaffar Ali
+    website: https://www.linkedin.com/in/muzaffar-ali-00876a3b6/
+
+alumni:
+  - name: Thuy Nguyen
+    website: https://www.linkedin.com/in/thuy-nguyen-b3a14a23b/
+
+  - name: Stuti Parikh
+    website: https://www.linkedin.com/in/stuti-parikh-a6ba2532b/
+
+  - name: Sophia Li
+    website: https://www.linkedin.com/in/sophiaa-a-li/
+
+  - name: Gauri Vanjari
+    website: https://storymaps.arcgis.com/stories/fb599a01d2e04450a1977aab67ddce72
+
