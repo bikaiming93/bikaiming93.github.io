@@ -4,6 +4,7 @@
 # - members: shown with photo, role, bio, and website
 # - interns and alumni: only the name is shown (linked to website)
 # To move someone, cut their entry and paste it under another category.
+
 # ============================================================
 
 members:
