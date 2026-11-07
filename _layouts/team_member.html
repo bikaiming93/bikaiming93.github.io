@@ -18,29 +18,45 @@ layout: default
   {% include sidebar.html %}
 
   <div class="team-list">
-    {% comment %} Pull team members from data file {% endcomment %}
-    {% assign members = site.data.team %}
+    {% assign team = site.data.team %}
 
-    {% if members and members.size > 0 %}
-      {% for member in members %}
-        <div class="team-member">
-          <div class="team-member__photo">
-            <img src="{{ member.photo }}" alt="Photo of {{ member.name }}">
-          </div>
-          <div class="team-member__info">
-            <h2 class="team-member__name">{{ member.name }}</h2>
-            {% if member.role %}<p class="team-member__role">{{ member.role }}</p>{% endif %}
-            {% if member.bio %}<div class="team-member__bio">{{ member.bio }}</div>{% endif %}
-            {% if member.website %}
-              <p class="team-member__website">
-                <a href="{{ member.website }}" target="_blank" rel="noopener">Visit Website</a>
-              </p>
-            {% endif %}
-          </div>
+    <h1 class="team-section__title">Members</h1>
+    {% for member in team.members %}
+      <div class="team-member">
+        {% if member.photo %}
+        <div class="team-member__photo">
+          <img src="{{ member.photo }}" alt="Photo of {{ member.name }}">
         </div>
+        {% endif %}
+        <div class="team-member__info">
+          <h2 class="team-member__name">{{ member.name }}</h2>
+          {% if member.role %}<p class="team-member__role">{{ member.role }}</p>{% endif %}
+          {% if member.bio %}<div class="team-member__bio">{{ member.bio }}</div>{% endif %}
+          {% if member.website %}
+            <p class="team-member__website">
+              <a href="{{ member.website }}" target="_blank" rel="noopener">Visit Website</a>
+            </p>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+
+    {% if team.interns and team.interns.size > 0 %}
+    <h1 class="team-section__title">Lab Interns</h1>
+    <ul class="team-names">
+      {% for p in team.interns %}
+        <li>{% if p.website %}<a href="{{ p.website }}" target="_blank" rel="noopener">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</li>
       {% endfor %}
-    {% else %}
-      <p class="team-member__empty">No team members found in <code>_data/team.yml</code>.</p>
+    </ul>
+    {% endif %}
+
+    {% if team.alumni and team.alumni.size > 0 %}
+    <h1 class="team-section__title">Alumni</h1>
+    <ul class="team-names">
+      {% for p in team.alumni %}
+        <li>{% if p.website %}<a href="{{ p.website }}" target="_blank" rel="noopener">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</li>
+      {% endfor %}
+    </ul>
     {% endif %}
   </div>
 </div>
@@ -68,5 +84,9 @@ layout: default
 .team-member__bio { margin: 1rem 0; }
 .team-member__website a { color: #007acc; text-decoration: none; }
 .team-member__website a:hover { text-decoration: underline; }
-.team-member__empty { font-style: italic; color: #999; }
+.team-section__title { font-size: 2rem; margin: 1rem 0 0; padding-bottom: 0.4rem; border-bottom: 2px solid #e0e0e0; }
+.team-names { margin: 0; padding-left: 1.4rem; }
+.team-names li { font-size: 1.15rem; margin: 0.35rem 0; }
+.team-names a { color: #007acc; text-decoration: none; }
+.team-names a:hover { text-decoration: underline; }
 </style>
