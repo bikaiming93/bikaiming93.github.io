@@ -1,0 +1,8 @@
+- title: Nahom presented at the Epidemics conference
+  date: 2026-11-07
+  text: A short description.
+  photos:
+    - /images/epidemics2026.jpg      # upload the photo to /images/ first
+  links:
+    - label: Conference website
+      url: https://example.com
