@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="news-list">
+    <h1 class="news-page__title">{{ page.title | default: "Lab News" }}</h1>
+
+    {% assign items = site.data.news %}
+    {% if items and items.size > 0 %}
+      {% for item in items %}
+        <article class="news-item">
+          {% if item.date %}<p class="news-item__date">{{ item.date | date: "%B %-d, %Y" }}</p>{% endif %}
+          <h2 class="news-item__title">{{ item.title }}</h2>
+          {% if item.text %}<div class="news-item__text">{{ item.text | markdownify }}</div>{% endif %}
+
+          {% if item.photos and item.photos.size > 0 %}
+            <div class="news-item__photos">
+              {% for ph in item.photos %}
+                <img src="{{ ph | relative_url }}" alt="{{ item.title | escape }}">
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          {% if item.links and item.links.size > 0 %}
+            <p class="news-item__links">
+              {% for l in item.links %}
+                <a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label | default: "Link" }}</a>{% unless forloop.last %} &nbsp;·&nbsp; {% endunless %}
+              {% endfor %}
+            </p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    {% else %}
+      <p class="news-empty">No news yet. Add items in <code>_data/news.yml</code>.</p>
+    {% endif %}
+  </div>
+</div>
+
+<style>
+.news-list { display: flex; flex-direction: column; gap: 1.5rem; margin: 2rem 0; }
+.news-page__title { font-size: 2rem; margin: 1rem 0 0; padding-bottom: 0.4rem; border-bottom: 2px solid #e0e0e0; }
+.news-item { padding-bottom: 1.5rem; border-bottom: 1px solid #eee; }
+.news-item__date { font-size: 0.95rem; color: #888; margin: 0 0 0.25rem; }
+.news-item__title { font-size: 1.4rem; margin: 0 0 0.5rem; }
+.news-item__text p { margin: 0.5rem 0; }
+.news-item__photos { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 0.75rem 0; }
+.news-item__photos img { max-width: 320px; width: 100%; height: auto; border-radius: 6px; }
+.news-item__links { margin: 0.5rem 0 0; }
+.news-item__links a { color: #007acc; text-decoration: none; }
+.news-item__links a:hover { text-decoration: underline; }
+.news-empty { font-style: italic; color: #999; }
+</style>
