@@ -12,12 +12,18 @@
 - title: Boya published her first first-author paper in IJID
   date: 2026-10-01
   photos:
-    - /images/IJID.jpg  
+    - /images/IJID.jpg
+  links:
+    - label: Temporal, demographic, and geographic patterns of long COVID incidence in relation to SARS-CoV-2 variant emergence: Insights from the Texas all-payer claims database (TX-APCD)
+      url: https://www.sciencedirect.com/science/article/pii/S1201971226006867
 
 - title: Kaiming published a wastewater data analysis paper in EID
   date: 2026-8-28
   photos:
-    - /images/EID2.png  
+    - /images/EID2.png
+  links:
+    - label: Temporal Alignment of Wastewater Signals with Clinical Indicators of Respiratory Illness Postpandemic, Texas, USA
+      url: https://wwwnc.cdc.gov/eid/article/32/13/26-0141_article
 
 - title: The Bi Lab moved from the RAS Building to the new SPH Building
   date: 2026-07-01
