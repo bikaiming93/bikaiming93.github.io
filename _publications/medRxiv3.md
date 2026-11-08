@@ -4,6 +4,6 @@ collection: publications
 permalink: /publications/medRxiv3
 venue: "medRxiv"
 date: 2026-06-29
-citation: Fiandrino, Stefania, Daniela Paolotti, Clara Bay, Matteo Chinazzi, Jessica T. Davis, Samantha J. Bents, Amanda C. Perofsky et al. "Adaptive multi-model ensembles for improved epidemic projections and decision support." medRxiv (2026): 2026-06.'
+citation: 'Fiandrino, Stefania, Daniela Paolotti, Clara Bay, Matteo Chinazzi, Jessica T. Davis, Samantha J. Bents, Amanda C. Perofsky et al. "Adaptive multi-model ensembles for improved epidemic projections and decision support." medRxiv (2026): 2026-06.'
 ---
 [[PDF]](https://www.medrxiv.org/content/10.64898/2026.06.26.26356648v1)
